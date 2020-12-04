@@ -20,28 +20,28 @@ function App() {
       </nav>
     </header>
 
-<section classname="intro" id="home">
+<section className="intro" id="home">
     <h1 className="section-title section-title-intro">
       Hi, I am <strong>Marta Camacho</strong>
     </h1>
       <p className="section-subtitle section-subtitle-intro">Full Stack Developer</p>
-      <img src="" alt="picture of me" />
+      <img className="intro-img" src="/images/FotoIH.jpg" alt="picture of me" />
 </section>
 
 <section className="my-services" id="services">
   <h2 className="section-title section-title-services"> What I do</h2>
       <div className="services">
         <div className="service">
-            <h3></h3>
-            <p></p>
+            <h3>thing 1</h3>
+            <p>bla bla</p>
         </div>
         <div className="service">
-            <h3></h3>
-            <p></p>
+            <h3>thing 2</h3>
+            <p> bla bla</p>
         </div>
         <div className="service">
-            <h3></h3>
-            <p></p>
+            <h3>thing 3</h3>
+            <p>bla bla</p>
         </div>
       </div>
     <a href="#work" className="btn">My work</a>
@@ -49,18 +49,18 @@ function App() {
       
 <section className="about-me" if="#about">
     <h2 className="section-title section-title-about">Who I am</h2>
-    <p className="section-subtitle section-subtitle-about"></p>
+    <p className="section-subtitle section-subtitle-about">subtitle</p>
     <div className="about-me-body">
-      <p></p>
-      <p></p>
-      <p></p>
+      <p>cosa 1</p>
+      <p>cosa 2</p>
+      <p>cosa 3</p>
     </div>
-    <img src="" alt=""/>
+    <img src="/images/FotoIH.jpg" alt=""/>
 </section>
 
 <section className="my-work" id="work">
 <h2 clasName="section-title">My work</h2>
-<p className="section-subtitle"></p>
+<p className="section-subtitle">subtitle</p>
 
 <div className="portfolio">
   <a href="#" className="portfolio-item">
@@ -81,13 +81,15 @@ function App() {
 </div>
 </section>
 
-
-
-
-
-
-
-
+<footer>
+  <a href="mailto:contacto@martacamacho.com" className="footer-link">contacto@martacamacho.com</a>
+  <ul className="social-list">
+      <li className="social-list-item"><a href="" className="social-list-link">link 1</a></li>
+      <li className="social-list-item"><a href="" className="social-list-link">link 2</a></li>
+      <li className="social-list-item"><a href="" className="social-list-link">link 3</a></li>
+      <li className="social-list-item"><a href="" className="social-list-link">link 3</a></li>
+  </ul>
+</footer>
 
     </div>
   );
