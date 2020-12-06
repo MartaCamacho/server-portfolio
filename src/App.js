@@ -39,7 +39,7 @@ function App() {
     <a href="#work" className="btn">My work</a>
 </section>
       
-<section className="about-me" if="#about">
+<section className="about-me" id="#about">
     <h2 className="section-title section-title-about">Who I am</h2>
     <p className="section-subtitle section-subtitle-about">subtitle</p>
     <div className="about-me-body">
