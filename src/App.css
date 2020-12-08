@@ -25,7 +25,7 @@
 		  0.125em 0.125em 0.25em rgba(0,0,0,25);
 }
 
-@media (min-width: 940px) {
+@media (min-width: 1000px) {
 	:root {
 		--fs-h1: 4.5rem;
 		--fs-h2: 3.75rem;
@@ -376,6 +376,11 @@ header {
 		grid-area: title;
 	}
 
+	.about-me-body {
+		text-align: justify;
+		margin-right: 0.5rem;
+	}
+
 	.section-subtitle-about {
 		grid-column: 1 / -1;
 		grid-row: 2;
@@ -401,20 +406,46 @@ header {
 	text-align: center;
 }
 
-.portfolio {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
+ .portfolio {
+	display: flex;
+	flex-direction: column-reverse;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+} 
 
 .portfolio-item {
-	background: var(--clr-accent);
 	overflow: hidden;
+	height: 95%;
+	display: flex;
+	align-items: center;
+	padding: 0.2rem;
+	width: 100%;
+	margin: 0.5rem;
+
 }
 
-.portfolio-img {
-	transition: 
-	transform 750ms cubic-bezier(.5, 0 .5, 1),
-	opacity 250ms linear;
+.portfolio-item a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: bold;
+	width: 100%;
+	padding: 0.2rem 1rem;
+}
+
+.portfolio-item-title {
+	width: 30%;
+	border: 2px solid black;
+	height: 100%;
+}
+
+.portfolio-item-body {
+	width: 70%;
+	text-align: justify;
+	border: 2px solid black;
+	border-left: none;
+	height: 100%;
+	padding: 0.2rem 1rem;
 }
 
 .portfolio-item:focus {
@@ -422,10 +453,30 @@ header {
 	z-index: 2;
 }
 
-.portfolio-img:hover,
-.portfolio-item:focus .portfolio-img {
-	transform: scale(1.2);
+.portfolio-item a:hover,
+.portfolio-item:focus .portfolio-item a {
+	transform: scale(1.1);
 	opacity: .75;
+}
+
+@media (max-width:600px) {
+	.portfolio-item {
+		display: flex;
+		flex-direction: column;
+	} 
+
+	.portfolio-item-title {
+		width: 100%;
+		border: 2px solid black;
+	}
+	
+	.portfolio-item-body {
+		width: 100%;
+		text-align: justify;
+		border: 2px solid black;
+		border-top: none;
+		padding: 0.2rem 1rem;
+	}
 }
 
 /* FOOTER */
