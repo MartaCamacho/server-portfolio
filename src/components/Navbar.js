@@ -23,9 +23,9 @@ render () {
             <nav className={this.state.toggle ?  'nav nav-open' : "nav" } id={this.state.toggle ?  'nav-open' : "" }>
                 <ul className={this.state.toggle ? 'nav-list nav-open' : 'nav-list'} >
                     <li className="nav-item"><a onClick={() => this.Toggle()} href="#home" className="nav-link">Home</a> </li>
-                    <li className="nav-item"><a onClick={() => this.Toggle()} href="#sevices" className="nav-link">My services</a> </li>
+                    <li className="nav-item"><a onClick={() => this.Toggle()} href="#sevices" className="nav-link">What I do</a> </li>
                     <li className="nav-item"><a onClick={() => this.Toggle()} href="#about" className="nav-link">About me</a> </li>
-                    <li className="nav-item"><a onClick={() => this.Toggle()} href="#work" className="nav-link">My work</a> </li>
+                    <li className="nav-item"><a onClick={() => this.Toggle()} href="#work" className="nav-link">My projects</a> </li>
                 </ul>
             </nav>
             </>

@@ -24,15 +24,24 @@ function App() {
   <h2 className="section-title section-title-services"> What I do</h2>
       <div className="services">
         <div className="service">
-            <h3>thing 1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sollicitudin lectus dictumst, morbi blandit nascetur nam congue suspendisse potenti nullam. Lectus himenaeos nostra mauris posuere duis egestas lacus litora, arcu semper tristique eros per aptent a, curabitur fringilla sollicitudin nec donec fames aliquam natoque, hendrerit ligula neque id non sagittis. Penatibus tempor euismod justo potenti cras semper, dictum blandit commodo quisque interdum ullamcorper platea, proin ligula ultrices porttitor suspendisse.</p>
+            <h3>Frontend</h3>
+            <p>I have knowledge in HTML5, CSS3, JavaScript (ES6) and React, 
+            that give me the hability to create format and layout a web. </p>
         </div>
         <div className="service">
-            <h3>thing 2</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipiscing elit sollicitudin lectus dictumst, morbi blandit nascetur nam congue suspendisse potenti nullam. Lectus himenaeos nostra mauris posuere duis egestas lacus litora, arcu semper tristique eros per aptent a, curabitur fringilla sollicitudin nec donec fames aliquam natoque, hendrerit ligula neque id non sagittis. Penatibus tempor euismod justo potenti cras semper, dictum blandit commodo quisque interdum ullamcorper platea, proin ligula ultrices porttitor suspendisse.</p>
+            <h3>Backend</h3>
+            <p> I also have learned about Express, Node, MongoDB and Axios, 
+            so I can save data into servers and extract information to be rendered.</p>
+        </div>
+        <div className="service">
+            <h3>Full Stack</h3>
+            <p> Putting these two things together make me a Full Stack
+            Developer (in fact, this website it built with both of them ✨).</p>
         </div>
       </div>
-    <a href="#work" className="btn">My work</a>
+    <a href="#work" className="btn">My projects</a>
+    <br/>
+    <a href="https://bit.ly/3lWiuzv" className="btn" target="_blank" rel="noreferrer">CV</a>
 </section>
       
 <section className="about-me" id="#about">
