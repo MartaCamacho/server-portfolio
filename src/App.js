@@ -3,8 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 function App() {
-  console.log("I see you are inspecting this page...")
-
+  console.log("I see you are inspecting this page...👮 if you have any questions or advice to improve it, I will be very happy 💫 to receive your message! 📬marta@martacamacho.com")
 
   return (
     <div className="root">
@@ -43,9 +42,7 @@ function App() {
     <h2 className="section-title section-title-about">Who I am</h2>
     <p className="section-subtitle section-subtitle-about">subtitle</p>
     <div className="about-me-body">
-      <p>cosa 1</p>
-      <p>cosa 2</p>
-      <p>cosa 3</p>
+      <p>La caña de España.</p>
     </div>
     <img className="about-me-image" src="/images/FotoIH.jpg" alt=""/>
 </section>

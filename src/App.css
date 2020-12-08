@@ -183,7 +183,16 @@ header {
 }
 
 .logo {
+	display: flex;
+	flex-direction: column;
 	max-width: 100px;
+	position: fixed;
+}
+
+.logo-link {
+	color: var(--clr-accent);
+	margin-right: 1rem;
+	font-size: var(--fs-h3);
 }
 
 .nav {
@@ -214,7 +223,7 @@ header {
 .nav-link {
 	color: inherit;
 	font-weight: var(--fw-bold);
-	font-size: var(--fs-h2);
+	font-size: var(--fs-h3);
 	text-decoration: none;
 }
 
@@ -233,9 +242,6 @@ header {
 	z-index: 1000;
 }
 
-/* .nav-open .nav {
-	transform: translateX(10%);
-} */
 
 #nav-open {
 	transform: translateX(0%);
@@ -271,7 +277,7 @@ header {
 	width: 2em;
 	height: 3px;
 	border-radius: 1em;
-	transition: transform 250ms ease-in-out;
+	transition: transform 1000ms ease-in-out;
 }
 
 .hamburger::before,
