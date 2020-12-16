@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2b11218.chunk.css",
-    "main.js": "/static/js/main.2ee36a0d.chunk.js",
-    "main.js.map": "/static/js/main.2ee36a0d.chunk.js.map",
+    "main.css": "/static/css/main.81875823.chunk.css",
+    "main.js": "/static/js/main.455f60f5.chunk.js",
+    "main.js.map": "/static/js/main.455f60f5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bfea658e.js",
     "runtime-main.js.map": "/static/js/runtime-main.bfea658e.js.map",
     "static/js/2.4eb6ec9c.chunk.js": "/static/js/2.4eb6ec9c.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.de0083ce.chunk.js": "/static/js/3.de0083ce.chunk.js",
     "static/js/3.de0083ce.chunk.js.map": "/static/js/3.de0083ce.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e2b11218.chunk.css.map": "/static/css/main.e2b11218.chunk.css.map",
+    "static/css/main.81875823.chunk.css.map": "/static/css/main.81875823.chunk.css.map",
     "static/js/2.4eb6ec9c.chunk.js.LICENSE.txt": "/static/js/2.4eb6ec9c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/background-laptop-cactus.f1eafe01.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bfea658e.js",
     "static/js/2.4eb6ec9c.chunk.js",
-    "static/css/main.e2b11218.chunk.css",
-    "static/js/main.2ee36a0d.chunk.js"
+    "static/css/main.81875823.chunk.css",
+    "static/js/main.455f60f5.chunk.js"
   ]
 }
